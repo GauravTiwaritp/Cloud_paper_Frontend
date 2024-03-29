@@ -1,0 +1,50 @@
+/* feedback-form.css */
+
+/* Form container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333; /* Set text color to a darker shade */
+}
+
+/* Form labels */
+.form-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Input fields */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Submit button */
+.form-submit {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+  background-color: #0056b3;
+}
+
+/* Error message */
+.form-error {
+  color: #ff0000;
+  font-size: 12px;
+  margin-top: 4px;
+}
